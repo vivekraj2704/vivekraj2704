@@ -29,33 +29,6 @@ I'm a passionate **Software Engineer** transforming ideas into scalable, intelli
 
 ---
 
-## 💼 Professional Highlights
-
-✨ **Rising Star of the Quarter** @ MAQ Software  
-🏗️ Built **20+ enterprise AI tools** via MCP Server for Microsoft Copilot Studio  
-🚀 Deployed AI microservices on **Azure Container Apps** with RBAC security  
-🎨 Created VS Code accessibility extension adopted by **15+ engineering teams**  
-⚡ Optimized database performance **3x** using Prisma ORM & connection pooling  
-
----
-
-## 🌟 Featured Projects
-
-### 📱 **Social Wave** — Real-Time Social Media Platform
-*JavaScript, React, Node.js, Express, MongoDB, Socket.io*
-- ⚡ Built full-stack MERN social platform with real-time notifications via WebSocket
-- 💬 Designed sub-second message propagation for concurrent user sessions
-- 🔗 [GitHub](https://github.com/vivekraj2704/Social-Wave) | [Live Demo](https://social-wave-a0v0.onrender.com/)
-
-### ✍️ **The Writing Way** — Serverless Blogging Platform  
-*TypeScript, React, Prisma, Cloudflare Workers, Hono*
-- 📊 Reduced server costs by **35%** using edge-compute deployment
-- 🎯 Handles **10,000+ monthly visitors** with optimized query performance
-- 🔒 Implemented JWT-based authentication for secure user sessions
-- 🔗 [GitHub](https://github.com/vivekraj2704/Blogging-web) | [Live Demo](https://blogging-web-black.vercel.app/signin)
-
----
-
 ## 🛠️ Tech Stack
 
 <div align="center">
