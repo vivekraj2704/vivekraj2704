@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" role="img" aria-labelledby="title desc" shape-rendering="geometricPrecision">
+  <title id="title">GitHub Profile Banner</title>
+  <desc id="desc">A split SVG profile banner with a large ASCII portrait and compact info cards.</desc>
+  <defs>
+    <clipPath id="panel-clip">
+      <rect x="20" y="20" width="960" height="640" rx="28" ry="28" />
+    </clipPath>
+    <style>
+      .canvas { fill: {{BACKGROUND}}; }
+      .shell { fill: {{BACKGROUND}}; stroke: {{BORDER}}; stroke-width: 1.4; }
+      .panel { fill: {{PANEL}}; stroke: {{PANEL_BORDER}}; stroke-width: 1.1; }
+      .soft-panel { fill: {{PANEL_SOFT}}; stroke: {{PANEL_BORDER}}; stroke-width: 1; }
+      .accent-rule { stroke: {{ACCENT}}; stroke-width: 2.25; }
+      .rule { stroke: {{BORDER}}; stroke-width: 1; opacity: 0.8; }
+      .mono { font-family: 'JetBrains Mono', Consolas, monospace; }
+      .portrait { fill: {{TEXT}}; font-size: 6.2px; letter-spacing: 0; }
+      .headline { fill: {{TEXT}}; font-size: 23px; font-weight: 700; }
+      .subhead { fill: {{TEXT_DIM}}; font-size: 11px; }
+      .title { fill: {{TEXT}}; font-size: 15px; font-weight: 700; }
+      .label { fill: {{ACCENT}}; font-size: 10px; font-weight: 700; letter-spacing: 0.9px; }
+      .body { fill: {{TEXT}}; font-size: 11.5px; }
+      .body-dim { fill: {{TEXT_DIM}}; font-size: 10.5px; }
+      .prompt { fill: {{PROMPT}}; }
+      .command { fill: {{COMMAND}}; }
+      .accent { fill: {{ACCENT}}; }
+      .cursor { fill: {{CURSOR}}; }
+      .fade-in { animation: fadeIn 0.65s ease-out both; }
+      @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+  </defs>
+  <rect class="canvas" width="1000" height="680" rx="30" ry="30" />
+  <rect class="shell" x="20" y="20" width="960" height="640" rx="28" ry="28" />
+  <g clip-path="url(#panel-clip)">
+    {{CONTENT}}
+  </g>
+</svg>

@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" role="img" aria-labelledby="title desc" shape-rendering="geometricPrecision">
+  <title id="title">GitHub Profile Banner</title>
+  <desc id="desc">A split SVG profile banner with a large ASCII portrait and compact info cards.</desc>
+  <defs>
+    <clipPath id="panel-clip">
+      <rect x="20" y="20" width="960" height="640" rx="28" ry="28" />
+    </clipPath>
+    <style>
+      .canvas { fill: #0D1117; }
+      .shell { fill: #0D1117; stroke: #30363D; stroke-width: 1.4; }
+      .panel { fill: #161B22; stroke: #30363D; stroke-width: 1.1; }
+      .soft-panel { fill: #0F1520; stroke: #30363D; stroke-width: 1; }
+      .accent-rule { stroke: #FFA657; stroke-width: 2.25; }
+      .rule { stroke: #30363D; stroke-width: 1; opacity: 0.8; }
+      .mono { font-family: 'JetBrains Mono', Consolas, monospace; }
+      .portrait { fill: #C9D1D9; font-size: 6.2px; letter-spacing: 0; }
+      .headline { fill: #C9D1D9; font-size: 23px; font-weight: 700; }
+      .subhead { fill: #8B949E; font-size: 11px; }
+      .title { fill: #C9D1D9; font-size: 15px; font-weight: 700; }
+      .label { fill: #FFA657; font-size: 10px; font-weight: 700; letter-spacing: 0.9px; }
+      .body { fill: #C9D1D9; font-size: 11.5px; }
+      .body-dim { fill: #8B949E; font-size: 10.5px; }
+      .prompt { fill: #7EE787; }
+      .command { fill: #79C0FF; }
+      .accent { fill: #FFA657; }
+      .cursor { fill: #58A6FF; }
+      .fade-in { animation: fadeIn 0.65s ease-out both; }
+      @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+  </defs>
+  <rect class="canvas" width="1000" height="680" rx="30" ry="30" />
+  <rect class="shell" x="20" y="20" width="960" height="640" rx="28" ry="28" />
+  <g clip-path="url(#panel-clip)">
+    
+    <g class="mono fade-in">
+      
+    <g>
+      <rect class="panel" x="36" y="36" width="568" height="598" rx="22" ry="22" />
+      <g transform="translate(36 36)">
+        <rect class="soft-panel" x="0" y="38" width="568" height="560" rx="20" ry="20" />
+        <g class="mono portrait" transform="translate(50 50)">
+          <text class="mono portrait" x="0" y="0" xml:space="preserve"><tspan fill="#C9D1D9">+-#*==##+**#=#*##+#*-%=#*#=##-%***#+==++*++***+*##%##*++=--::::==-=+===-+:---==-==+:-:=+:%++#+*+#*=+-+#%##:.-+#*+-#+*+++#*#+**-=**</tspan></text>
+<text class="mono portrait" x="0" y="11" xml:space="preserve"><tspan fill="#C9D1D9">:+*=*=#*#=*#=#*#%**=+*+#-%*+=:=#++=+++++*##*+==-=**%##*++*##*=-=+==+#%**#++=+**-+=++-=---:*+.=:%*:++#+-:+=##*-+:.+*-=+-:-:+:*-+#+#</tspan></text>
+<text class="mono portrait" x="0" y="22" xml:space="preserve"><tspan fill="#C9D1D9">=+-#=##*##++%*%%++*#=-.+%=+@*:#.#++-******###**##%#**+=++*%#%%%%#%%%***%%%#**=*=#=:#*:::=::--#+=.#.=%+%=%=:**#==--:-+##+=:-+#==+++</tspan></text>
+<text class="mono portrait" x="0" y="33" xml:space="preserve"><tspan fill="#C9D1D9">+-+***=*=##=+%##+*-#*+%+++#-%+#===**#*++*****#######***+*##*++=--=====+*#*=-+**+**#=-.--:.-.:.*=*#=#%#**+*+*=+*=##*-*-+-=*+--=+#-=</tspan></text>
+<text class="mono portrait" x="0" y="44" xml:space="preserve"><tspan fill="#C9D1D9">-=-*=+=*=**+##*#+==**#*#=#++=**+*=#%#***###########*+====------:-::::---=====*#***::..:+.-:...+=*:**.**#*+=:*++-*:=+###+**+-=#**+-</tspan></text>
+<text class="mono portrait" x="0" y="55" xml:space="preserve"><tspan fill="#C9D1D9">=--***#+++-*%+##**#-*+*=-:#-:=-#++******#######*++=------:::--::::.:::::-----=++==--=-::+-.::#=:+..+%#=#**##+###-*+:=%++*+:*.++*-=</tspan></text>
+<text class="mono portrait" x="0" y="66" xml:space="preserve"><tspan fill="#C9D1D9">:#:--+:+*#**=*:******+*#+#%#:-+=-**###*#####**+=------::::-:::::::::..:::----=+*+*++==--=-=-=:#*-+==#+=###+#+==-%*#*:-*++*-*-:**+*</tspan></text>
+<text class="mono portrait" x="0" y="77" xml:space="preserve"><tspan fill="#C9D1D9">-*++-#*#+**:+:+*#*==+#**+#*#**###**#%%#***+=--::::::::::::::::::::.:::::::::-==+*#*###---=-==---#%.:****+*#=*#+#**###%=*#-#*#*-*-=</tspan></text>
+<text class="mono portrait" x="0" y="88" xml:space="preserve"><tspan fill="#C9D1D9">+=+-#*+=+#*:+:+=+-+**#+*++#********#*++=-:::::::::::::::::::::::::::::::::::-:-===*%%+*:+-+==+-%-:-#+-+:=+:=:%*#+%=*#-+--==+.***+*</tspan></text>
+<text class="mono portrait" x="0" y="99" xml:space="preserve"><tspan fill="#C9D1D9">:-*==****=*+-+%:=+*+##+#%*#=####*#%=--:::::::::::::::::::::::::::::::::::::::-----+*%%:-=+*++==+*%==*#%+*+=+*#####**--#:##=+:#-***</tspan></text>
+<text class="mono portrait" x="0" y="110" xml:space="preserve"><tspan fill="#C9D1D9">-=*##+++-%:+==#-+=**++*=*-:*#*####*+-:::::::::::::::::::::::::::::::::::::::::---=-*+****#***++**-*=*##**+*##*:=:#**###=:=++#+:+*:</tspan></text>
+<text class="mono portrait" x="0" y="121" xml:space="preserve"><tspan fill="#C9D1D9">:++*:=*-#-*%#-#:-++**=#:+%+*%%#*#**+=:::::::::::::::::::::::::::::..:::::::::::--==#%%######*++#*-#*=*#-=+:***=*+:%=%=++++-:::+=#*</tspan></text>
+<text class="mono portrait" x="0" y="132" xml:space="preserve"><tspan fill="#C9D1D9">-***#+++=*#=+=#=+=%#*+#=%=*.%##*###*+-:::::::::::::::::::::::::::....::::::::::-===##%#%%%%#*+:==%#=**+#%*+=#*=**+%#+*:+-#+-#*+::%</tspan></text>
+<text class="mono portrait" x="0" y="143" xml:space="preserve"><tspan fill="#C9D1D9">-=-#-++:#+**+-=+%:+***-*+#=*%###%%##+-::::::::::::::::::::::::::::::::......:::--==##%%%%%%%%++:-::#**=#=++#*:=-##*.==*%%-**+.+#*+</tspan></text>
+<text class="mono portrait" x="0" y="154" xml:space="preserve"><tspan fill="#C9D1D9">.-=##:++=*=#=+*--*#%##***-%+##%#%%##+--::::::::::::::::::::::::::::::::........:--+##%%%%%%%*=%=#+**+=*#*#+=#**+=*:**.*##**+++++=+</tspan></text>
+<text class="mono portrait" x="0" y="165" xml:space="preserve"><tspan fill="#C9D1D9">:=*#+-+-#*+*#=*#*#=+#++#+=%=+%###%%*--:::=+====--:::::::::::::::::::::::-=--=...-==%#%%%%%%%=*=*%.*%=*+-*#*-+%###%-#-%:*%+##**#%.:</tspan></text>
+<text class="mono portrait" x="0" y="176" xml:space="preserve"><tspan fill="#C9D1D9">-==*+===+*=#++=#*+#**-=**##-=%*##%%=:::+***#*#####%*+--=---:-=*+=+*##%%%##*+=++-:--##%%#%%%%**%-:#:+**##%*==-*=#*+=--*=*++*=-*=*#:</tspan></text>
+<text class="mono portrait" x="0" y="187" xml:space="preserve"><tspan fill="#C9D1D9">-:-#++::*#==*+*+##+#-*%*=*:#+*#*###:::*++=--=--+*##*+===--==--++++*#*+=-::--==***--=%%%%#%%##%#=+%%++.=%*%#*+%#++%*=**-*#-#**#-:#=</tspan></text>
+<text class="mono portrait" x="0" y="198" xml:space="preserve"><tspan fill="#C9D1D9">=-:=+-*=#++##*+=**=+*:**++**++#*#%*::-+*****=--=+*#*++=-=---==+*+++##+-=-==----++*+-+%%#%%%*=#+#-*==#*#++=:***#*+#=*+=**-==-==%+++</tspan></text>
+<text class="mono portrait" x="0" y="209" xml:space="preserve"><tspan fill="#C9D1D9">=---=#*=-#+=+=***-*#:#*=*#-##-=##*#%=.:==-#**#*#*+*+==-*%#**#%+-++=+*:***%=-*=----*+=*##%-.:.##+*=#:*-*#+#***:%*=:*#++++%::-*:+%**</tspan></text>
+<text class="mono portrait" x="0" y="220" xml:space="preserve"><tspan fill="#C9D1D9">:::==*##+*+=*#*+**=*+#*#=#+%:#:+*#+%:---==:::*##.:-=+--++-:-:#+=====:.:#%*:------.#::%%#==+=-+%+%*#%*%*#*#+:*=-+#.*-*%%=+%:=-#*+*=</tspan></text>
+<text class="mono portrait" x="0" y="231" xml:space="preserve"><tspan fill="#C9D1D9">..=*##-+==:-+*-=-++#=**==:*+-==--%:=-::-----=-:--=-----#-:::--#===---===--=--:::.+.::=%*=----==#:+%=*+#++#*#*+**+=#+*###*.*#:-=-=+</tspan></text>
+<text class="mono portrait" x="0" y="242" xml:space="preserve"><tspan fill="#C9D1D9">.:**#*=++#:##=*-**==*#*%+++#:--::#..+.:::::----:------:*.:..:-**:----------:::...#.:::+=:---:+*+++*%:**.#=#%****+:##=:.#**=:++*+-@</tspan></text>
+<text class="mono portrait" x="0" y="253" xml:space="preserve"><tspan fill="#C9D1D9">:-=-#=*=-**+=#=#+#++=#+*#=%+:-:::=::-::::::::::::::::.*:.. ..::#::::::---::::.:..:..:::=::-=:*##%+**#*-#*+-+*--==-+==*#-*#++#:*=*%</tspan></text>
+<text class="mono portrait" x="0" y="264" xml:space="preserve"><tspan fill="#C9D1D9">:.-*#**+*%=#*#:****#*-***#*%*:-:=-::.=.:::::::::.:.:.#:.... ..::@-.:::.::::....:-...:::*=-:==*%-:*=*+---**=.*#-:#:--.*-+#=*-.+:.+-</tspan></text>
+<text class="mono portrait" x="0" y="275" xml:space="preserve"><tspan fill="#C9D1D9">:.=-#*=*=*--+#:+*+#+*+*=*+**%::=+-::::.::--====++**=-::.........:-++++=-::::........:::+==::+@++:#*%*-@-:=#++=++#%.=*=:*:+==++-#%:</tspan></text>
+<text class="mono portrait" x="0" y="286" xml:space="preserve"><tspan fill="#C9D1D9">--.-#+=*-*-#:*=:*****=:--#%-%*.:+=::::....:::::::---:-:-::-:----::--:::::.......:.::::-=+:.-@:#=%%=+:*##=+=*%*-*+#%+:-%+*-+*+*+:+=</tspan></text>
+<text class="mono portrait" x="0" y="297" xml:space="preserve"><tspan fill="#C9D1D9">:--=-*#-+:=-=#*#==*=*-:##%++=%-:-+::::::...:::::-----+*+-----%*#++=----::::::..::::::-+:.-.*+%#***+#=.:*+=**=**#:#+.+++=+==+===:*+</tspan></text>
+<text class="mono portrait" x="0" y="308" xml:space="preserve"><tspan fill="#C9D1D9">::++=*=-**=#=%*+=:=%++**#=*+##=-.*-:::::::::::--::-==+**##*#####+++=-:---:::::::::::-==::.:*#+%=++#*=+==%==-:-=#*+++*=-#:*:+#:.:.:</tspan></text>
+<text class="mono portrait" x="0" y="319" xml:space="preserve"><tspan fill="#C9D1D9">..-**#*=*=-#=*-=+:**%+:#-**+%-%::*---::::::::--=+*######%%#*%%%######*++--:::-:---:--=-:..+%*%#+*#:++-+%*---%=#+#=::%:..*-+:*.#*+=</tspan></text>
+<text class="mono portrait" x="0" y="330" xml:space="preserve"><tspan fill="#C9D1D9">..=+*+===+#=#*=#=*=+=*%*=***#%*.:==---:::::::=*####*+==++----+#****##%##*=:--------==+....%#**++=*+%+%#*#*#*=:=:++-.-#+=-+:#+#**=#</tspan></text>
+<text class="mono portrait" x="0" y="341" xml:space="preserve"><tspan fill="#C9D1D9">..:+-=*:**=*=:###+###*+#*#%#+##-++*----:::::-*##**+=+++========+++***##%%+-------===+=++###%*%%*=%#.**-***%*+*:=-.=##-+*:#-=+=*-=*</tspan></text>
+<text class="mono portrait" x="0" y="352" xml:space="preserve"><tspan fill="#C9D1D9">..:*#::+#+=#+***+*#*%+*#*#+****#+**==-:---::=*+=--=---------------===-=*#+-----==-=+**#*-#*#*+#*###%**+*#---+*==*-**=.*=++#+*:-=+*</tspan></text>
+<text class="mono portrait" x="0" y="363" xml:space="preserve"><tspan fill="#C9D1D9">**=-++*#-=-%=#*%***#%=##*#+*###%##:*+=-----------:---:-:-------======--+=-=-=-=====**##%*+=+-=+##++#*%#+-*+=#==++%-#:#+#*++#*+**%#</tspan></text>
+<text class="mono portrait" x="0" y="374" xml:space="preserve"><tspan fill="#C9D1D9">===**:=+-%+*=*%*=*#*%*#*+#**#*+*##%#+-----------:-----=+****++++=======+=--=======*####%#*==#%%**#*=*#%.##%:=++---+*#+++*-#+**=-#=</tspan></text>
+<text class="mono portrait" x="0" y="385" xml:space="preserve"><tspan fill="#C9D1D9">:..+*-++*++###+#+**-**%#*##**=*+*#%%#+=-----===+-----=++*###***+======+*+=======+#+#-*%##*##*%+*%-%==++*==##+*+++*-#+=##*+#*#=##.+</tspan></text>
+<text class="mono portrait" x="0" y="396" xml:space="preserve"><tspan fill="#C9D1D9">::::.*+**=**#****#%++****#*+*@-*#%***#+==-===++==--::---+***++==---==++**+++++****%%*@***%%*%+**+##=@*#+#+*=-#++=#-:#**--++%+*=*%=</tspan></text>
+<text class="mono portrait" x="0" y="407" xml:space="preserve"><tspan fill="#C9D1D9">-::*==*+.=**+*#**#**#=#+*#*%#**=#=#%****+=-===+=-------======-==--=+=+*******####**%###%%*.-%%#%##*##+#%*+++*=*-%:#:+##*#*:+*:#+**</tspan></text>
+<text class="mono portrait" x="0" y="418" xml:space="preserve"><tspan fill="#C9D1D9">:::+=+##*-#+#**###*=*####+++#=####+-+**#=**++++=+====+==++====+++++***###*####+*#+*#=-*#*#+#==#%=**#+:%%+:*#=:=--+-==**:###*+=++#=</tspan></text>
+<text class="mono portrait" x="0" y="429" xml:space="preserve"><tspan fill="#C9D1D9">-:-+===#:*==%-#-*+*+#+%#*#%*%-+%%.#=+##+--+#######***#*#*****#######%%##%%###+-##%**#*%##++-#+######**=+++++###*##=*+#+**+*##+*+#*</tspan></text>
+<text class="mono portrait" x="0" y="440" xml:space="preserve"><tspan fill="#C9D1D9">...---*+#*=*++##%*#=*#***++#=*=#=*+=+:*#::-=**%#####%%%%%%%%%%%%%%%%%%%%%#*+==-#+==%#%****+%.=#-*####***#*%#+***:##%*.%%-+##+#++%*</tspan></text>
+<text class="mono portrait" x="0" y="451" xml:space="preserve"><tspan fill="#C9D1D9">--=*==+*=*=*+:#=##*=*#+-+*=++@=-***+##*@=---===+###%%%%%%%%%%%%%%%%%%%###*+====@%--##=%#**%*##**#:###*-#=+*+%#=+*%#+##-*-#**+#*=#+</tspan></text>
+<text class="mono portrait" x="0" y="462" xml:space="preserve"><tspan fill="#C9D1D9">-==**:+*%:+*+#+*#*=#-+=###*+%##*+:=**#%@-----===++**#%%%%%%%%%%%%%%###*++=---==@%%=+*#%++#+%=%=%*%++=**%--*+#:#=##%%=%:+##+#:*=*+%</tspan></text>
+<text class="mono portrait" x="0" y="473" xml:space="preserve"><tspan fill="#C9D1D9">....+-=+++-*+*=%#+*+###**=+#-:+=#%=##@%@--:-:---==+*******##########*+=========@%@+++-##%***+*-%%+**=+#****%++=#**#%--%+*.::*=:-+:</tspan></text>
+<text class="mono portrait" x="0" y="484" xml:space="preserve"><tspan fill="#C9D1D9">:---+:*::#%+*@+#%=#*+*+*%+#=##+.%##%@%%%--:-::-------==+++++++****+====-==---==@@%#+#:%%#++*#*=##=*#+##+%**+*:=++#:@+.*%.#%::=#*=+</tspan></text>
+<text class="mono portrait" x="0" y="495" xml:space="preserve"><tspan fill="#C9D1D9">:::--=*=**+%*-##+=#=+==+**++=#%%++%##%%%=----::::-:------==========----------==#@#*##--**%#%#=#*+%***+*%=*#-+#-=**:#+#+#:++*+*#*+#</tspan></text>
+<text class="mono portrait" x="0" y="506" xml:space="preserve"><tspan fill="#C9D1D9">....*=++=+*+**#*##**-+%*=#***##++#@*#%%%+---::--:::-------------------------=++*%##--:-=+**+*#*#%=*:#*#=#-*:+@%**:#-*%**+:==+-++*:</tspan></text>
+<text class="mono portrait" x="0" y="517" xml:space="preserve"><tspan fill="#C9D1D9">==-=-:=+=*+##*+-*+-++***+-%+#+++##%%#%%#+=-------::-:::::::----------------==+=#*#*:+:-+*+=+%++-+*:#-%*%%+*##*#*:+%**=-*+=-:+*#*#=</tspan></text>
+<text class="mono portrait" x="0" y="528" xml:space="preserve"><tspan fill="#C9D1D9">=+++=-::++*###=+=**+*-=%*=#+#*++%*%#*%%#++=-------:-----::---------------====+=+%*##.-:#*+=++==:-.##@:*+#*=:=**=###*=-=:=%++*-+:+-</tspan></text>
+<text class="mono portrait" x="0" y="539" xml:space="preserve"><tspan fill="#C9D1D9">....+-+++**+#**++*=*==+**###+==*#%@#**%*++==----------::-:---------------=====+##***+:=:=++*+++-==:-=:..-%+*==*-#-+:++#=+*#*+#-=+#</tspan></text>
+        </g>
+      </g>
+      <text class="mono label" x="58" y="60" xml:space="preserve">PORTRAIT</text>
+    </g>
+  
+      
+    <g>
+      <rect class="panel" x="624" y="36" width="340" height="118" rx="22" ry="22" />
+      <text class="mono label" x="646" y="60" xml:space="preserve">VIVEK RAJ</text>
+      <g transform="translate(624 36)">
+        
+    <text class="mono title" x="22" y="56" xml:space="preserve">Software Engineer</text>
+    <text class="mono body-dim" x="22" y="78" xml:space="preserve"><tspan fill="#8B949E">IIIT Bhagalpur</tspan></text>
+    <text class="mono body-dim" x="22" y="98" xml:space="preserve"><tspan fill="#8B949E">MAQ Software</tspan></text>
+  
+      </g>
+    </g>
+  
+      
+    <g>
+      <rect class="panel" x="624" y="168" width="340" height="224" rx="22" ry="22" />
+      <text class="mono label" x="646" y="192" xml:space="preserve">TECH STACK</text>
+      <g transform="translate(624 168)">
+        
+    <g transform="translate(22 56)">
+      <text class="mono body-dim" x="0" y="0" xml:space="preserve"><tspan fill="#FFA657">Languages</tspan></text>
+      <text class="mono body" x="92" y="0" xml:space="preserve"><tspan fill="#C9D1D9">C++, Java</tspan></text>
+      <text class="mono body" x="92" y="16" xml:space="preserve"><tspan fill="#C9D1D9">TypeScript, JavaScript</tspan></text>
+      <text class="mono body-dim" x="0" y="40" xml:space="preserve"><tspan fill="#FFA657">Backend</tspan></text>
+      <text class="mono body" x="92" y="40" xml:space="preserve"><tspan fill="#C9D1D9">Node.js, Express</tspan></text>
+      <text class="mono body" x="92" y="56" xml:space="preserve"><tspan fill="#C9D1D9">Hono</tspan></text>
+      <text class="mono body-dim" x="0" y="80" xml:space="preserve"><tspan fill="#FFA657">Frontend</tspan></text>
+      <text class="mono body" x="92" y="80" xml:space="preserve"><tspan fill="#C9D1D9">React, Tailwind CSS</tspan></text>
+      <text class="mono body-dim" x="0" y="104" xml:space="preserve"><tspan fill="#FFA657">Data + Cloud</tspan></text>
+      <text class="mono body" x="92" y="104" xml:space="preserve"><tspan fill="#C9D1D9">PostgreSQL, MongoDB</tspan></text>
+      <text class="mono body" x="92" y="120" xml:space="preserve"><tspan fill="#C9D1D9">MySQL, Azure</tspan></text>
+      <text class="mono body" x="92" y="136" xml:space="preserve"><tspan fill="#C9D1D9">Microsoft Fabric, Cloudflare Workers</tspan></text>
+    </g>
+  
+      </g>
+    </g>
+  
+      
+    <g>
+      <rect class="panel" x="624" y="408" width="164" height="148" rx="22" ry="22" />
+      <text class="mono label" x="646" y="432" xml:space="preserve">NOW</text>
+      <g transform="translate(624 408)">
+        
+    <g transform="translate(22 54)">
+      <text class="mono body" x="0" y="0" xml:space="preserve"><tspan fill="#FFA657">Grinding DSA</tspan></text>
+      <text class="mono body" x="0" y="24" xml:space="preserve"><tspan fill="#8B949E">System design</tspan></text>
+      <text class="mono body" x="0" y="48" xml:space="preserve"><tspan fill="#8B949E">Backend systems</tspan></text>
+    </g>
+  
+      </g>
+    </g>
+  
+      
+    <g>
+      <rect class="panel" x="800" y="408" width="164" height="148" rx="22" ry="22" />
+      <text class="mono label" x="822" y="432" xml:space="preserve">INTERESTS</text>
+      <g transform="translate(800 408)">
+        
+    <g transform="translate(22 54)">
+      <text class="mono body" x="0" y="0" xml:space="preserve"><tspan fill="#8B949E">Distributed Systems</tspan></text>
+      <text class="mono body" x="0" y="24" xml:space="preserve"><tspan fill="#8B949E">Backend Engineering</tspan></text>
+      <text class="mono body" x="0" y="48" xml:space="preserve"><tspan fill="#8B949E">AI Agents</tspan></text>
+      <text class="mono body" x="0" y="72" xml:space="preserve"><tspan fill="#8B949E">Open Source</tspan></text>
+    </g>
+  
+      </g>
+    </g>
+  
+      
+    <g transform="translate(624 652)">
+      <text class="mono body" x="0" y="0" xml:space="preserve"><tspan fill="#7EE787">$ </tspan><tspan fill="#79C0FF">ssh vivek@github</tspan></text>
+      <rect class="cursor" x="170" y="-11" width="9" height="13" rx="1.5">
+        <animate attributeName="opacity" values="1;0;1" dur="1.05s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  
+    </g>
+  
+  </g>
+</svg>

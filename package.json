@@ -1,0 +1,12 @@
+{
+  "name": "github-terminal-profile",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "generate:avatar": "node scripts/ascii-generator.js",
+    "build": "node scripts/ascii-generator.js && node scripts/svg-builder.js"
+  }
+}
