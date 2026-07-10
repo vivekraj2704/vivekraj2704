@@ -77,10 +77,10 @@ function card(x, y, width, height, title, content) {
 function renderLeftPortrait(theme) {
   return `
     <g>
-      <rect class="panel" x="36" y="36" width="568" height="598" rx="22" ry="22" />
+      <rect class="panel" x="36" y="36" width="488" height="518" rx="22" ry="22" />
       <g transform="translate(36 36)">
-        <rect class="soft-panel" x="0" y="38" width="568" height="560" rx="20" ry="20" />
-        <g class="mono portrait" transform="translate(50 50)">
+        <rect class="soft-panel" x="0" y="38" width="486" height="480" rx="20" ry="20" />
+        <g class="mono portrait" transform="translate(65 75)">
           ${renderPortrait(theme)}
         </g>
       </g>
