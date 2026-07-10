@@ -140,7 +140,7 @@ function renderInterestsCard(theme) {
 function renderPrompt(theme) {
   return `
     <g transform="translate(624 652)">
-      <text class="mono body" x="0" y="0" xml:space="preserve"><tspan fill="${theme.PROMPT}">$ </tspan><tspan fill="${theme.COMMAND}">ssh vivek@github</tspan></text>
+      <text class="mono body" x="0" y="0" xml:space="preserve"><tspan fill="${theme.PROMPT}">$ </tspan><tspan fill="${theme.COMMAND}">ssh vivekraj2704@github</tspan></text>
       <rect class="cursor" x="170" y="-11" width="9" height="13" rx="1.5">
         <animate attributeName="opacity" values="1;0;1" dur="1.05s" repeatCount="indefinite" />
       </rect>
